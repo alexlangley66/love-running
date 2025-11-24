@@ -101,6 +101,7 @@ main {
   background-color: lightblue;
   /* Makes main take up all available space between header and footer */
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 /* Footer */
 footer {
