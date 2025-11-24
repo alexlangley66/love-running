@@ -1,10 +1,28 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap");
+
+/* Lato font class */
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* Oswald font class to cover different weights
+// <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name to avoid conflicts, e.g., oswald-400, oswald-700
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 /* Asterisk wildcard selector to oveerride default styles added by the browser */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 /* General styles */
 body {
   min-height: 100vh;
